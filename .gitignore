@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# runtime data (database, snapshots, plate crops, models, logs)
+data/
+
+# Hikvision HCNetSDK binaries (licensed, not redistributed)
+hiksdk/lib/
+# in this copy the DLLs were unpacked into hiksdk/include — ignore them there too
+hiksdk/include/*.dll
+hiksdk/include/HCNetSDKCom/
